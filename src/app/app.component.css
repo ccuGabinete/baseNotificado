@@ -1,0 +1,18 @@
+.content {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 4%;
+  border-style: solid;
+  padding: 1em;
+}
+
+.titulo {
+  margin-top: 3%;
+  text-align: center;
+}
+
+@media print {
+  .doNotPrint {
+    display: none !important;
+  }
+}
